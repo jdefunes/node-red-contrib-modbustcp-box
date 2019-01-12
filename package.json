@@ -1,0 +1,39 @@
+{
+  "name": "node-red-contrib-modbustcp-box",
+  "version": "1.2.1",
+  "description": "Node-RED nodes for communicating with a MODBUS TCP Server on groov Edge Appliance.",
+  "main": "modbustcp.js",
+  "dependencies": {
+    "jsmodbus": "^2.4.0",
+    "npm": "^5.7.1",
+    "serialport": "^6.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "mon": "nodemon --exec \"node-red\" --ext js,html"
+  },
+  "engine": {
+    "node": ">=4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdefunes/node-red-contrib-modbustcp-box.git"
+  },
+  "keywords": [
+    "node-red",
+    "modbus",
+    "modbus tcp",
+    "modbus client"
+  ],
+  "node-red": {
+    "nodes": {
+      "modbus tcp": "modbustcp.js"
+    }
+  },
+  "author": {
+    "name": "Jdefunes",
+    "email": "jdefunes@gmail.com"
+  },
+  "license": "MIT"
+}
